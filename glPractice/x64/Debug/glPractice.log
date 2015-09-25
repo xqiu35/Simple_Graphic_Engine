@@ -1,4 +1,4 @@
-﻿Build started 9/25/2015 2:25:14 PM.
+﻿Build started 9/25/2015 2:39:08 PM.
      1>Project "C:\Users\Xiaofei\Desktop\Learn c++\glPractice\glPractice\glPractice.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (glPractice.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -11,7 +11,7 @@
          Cube.cpp
          Camera.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\x64\Debug\QEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\Deps/lib/" SDL2.lib SDL2main.lib SDL2test.lib glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\x64\Debug\QEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\x64\Debug\QEngine.lib" /MACHINE:X64 x64\Debug\Camera.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\x64\Debug\QEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\Deps/lib/" SDL2.lib SDL2main.lib SDL2test.lib glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\x64\Debug\QEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xiaofei\Desktop\Learn c++\glPractice\x64\Debug\QEngine.lib" /MACHINE:X64 x64\Debug\Camera.obj
          x64\Debug\Cube.obj
          x64\Debug\Error.obj
          x64\Debug\GLSLProgram.obj
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.87
+Time Elapsed 00:00:00.60
