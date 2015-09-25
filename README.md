@@ -22,7 +22,7 @@ Sample Program output video
 https://www.youtube.com/watch?v=8hZ1F70klBw
 
 Might be future work:<br/>
-1. implement keyboard & mouse input handler<br/>
+1. Implement keyboard & mouse input handler<br/>
 2. Camera reponse to input<br/>
 3. Sound effect <br/>
 
