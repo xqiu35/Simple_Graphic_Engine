@@ -10,7 +10,7 @@ All include files and lib files are contained in Deps file. <br/>
 
 Source code are present in glPractice file <br/>
 
-Project can be build in debug mode, x64 platform using using Visual Studio 2013 <br/>
+Project can be built in debug mode, x64 platform using using Visual Studio 2013 <br/>
 
 Sample program is present in main.cpp. The program will draw a rotating cube in the window. <br/>
 
