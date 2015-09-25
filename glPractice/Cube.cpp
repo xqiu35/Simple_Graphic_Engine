@@ -13,42 +13,42 @@ namespace Engine{
 	void Cube::init(GLfloat length)
 	{
 		static const GLfloat g_vertex_buffer_data[] = {
-			-1.0f, -1.0f, -1.0f, // triangle 1 : begin
-			-1.0f, -1.0f, 1.0f,
-			-1.0f, 1.0f, 1.0f, // triangle 1 : end
-			1.0f, 1.0f, -1.0f, // triangle 2 : begin
-			-1.0f, -1.0f, -1.0f,
-			-1.0f, 1.0f, -1.0f, // triangle 2 : end
-			1.0f, -1.0f, 1.0f,
-			-1.0f, -1.0f, -1.0f,
-			1.0f, -1.0f, -1.0f,
-			1.0f, 1.0f, -1.0f,
-			1.0f, -1.0f, -1.0f,
-			-1.0f, -1.0f, -1.0f,
-			-1.0f, -1.0f, -1.0f,
-			-1.0f, 1.0f, 1.0f,
-			-1.0f, 1.0f, -1.0f,
-			1.0f, -1.0f, 1.0f,
-			-1.0f, -1.0f, 1.0f,
-			-1.0f, -1.0f, -1.0f,
-			-1.0f, 1.0f, 1.0f,
-			-1.0f, -1.0f, 1.0f,
-			1.0f, -1.0f, 1.0f,
-			1.0f, 1.0f, 1.0f,
-			1.0f, -1.0f, -1.0f,
-			1.0f, 1.0f, -1.0f,
-			1.0f, -1.0f, -1.0f,
-			1.0f, 1.0f, 1.0f,
-			1.0f, -1.0f, 1.0f,
-			1.0f, 1.0f, 1.0f,
-			1.0f, 1.0f, -1.0f,
-			-1.0f, 1.0f, -1.0f,
-			1.0f, 1.0f, 1.0f,
-			-1.0f, 1.0f, -1.0f,
-			-1.0f, 1.0f, 1.0f,
-			1.0f, 1.0f, 1.0f,
-			-1.0f, 1.0f, 1.0f,
-			1.0f, -1.0f, 1.0f
+			-length, -length, -length, // triangle 1 : begin
+			-length, -length, length,
+			-length, length, length, // triangle 1 : end
+			length, length, -length, // triangle 2 : begin
+			-length, -length, -length,
+			-length, length, -length, // triangle 2 : end
+			length, -length, length,
+			-length, -length, -length,
+			length, -length, -length,
+			length, length, -length,
+			length, -length, -length,
+			-length, -length, -length,
+			-length, -length, -length,
+			-length, length, length,
+			-length, length, -length,
+			length, -length, length,
+			-length, -length, length,
+			-length, -length, -length,
+			-length, length, length,
+			-length, -length, length,
+			length, -length, length,
+			length, length, length,
+			length, -length, -length,
+			length, length, -length,
+			length, -length, -length,
+			length, length, length,
+			length, -length, length,
+			length, length, length,
+			length, length, -length,
+			-length, length, -length,
+			length, length, length,
+			-length, length, -length,
+			-length, length, length,
+			length, length, length,
+			-length, length, length,
+			length, -length, length
 		};
 
 		if (_vboID == 0)
