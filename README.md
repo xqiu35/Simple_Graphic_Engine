@@ -18,7 +18,7 @@ The output .exe file and .dll files are contained in cube.zip.<br/>
 
 You should be able to download cube.zip file and run the example program.<br/>
 
-Sample Program output video
+Sample Program video
 https://www.youtube.com/watch?v=8hZ1F70klBw
 
 Might be future work:<br/>
