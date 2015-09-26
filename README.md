@@ -6,7 +6,7 @@
 
 Description:<br/>
 
-All include files and lib files are contained in Deps file. <br/>
+All include files and lib files are contained in Deps folder. <br/>
 
 Source code are present in glPractice file <br/>
 
