@@ -19,7 +19,7 @@ The output .exe file and .dll files are contained in cube.zip.<br/>
 You should be able to download cube.zip file and run the example program.<br/>
 
 Sample Program video
-https://www.youtube.com/watch?v=8hZ1F70klBw
+https://www.youtube.com/watch?v=ISQlO3WLoEQ
 
 Might be future work:<br/>
 1. Implement keyboard & mouse input handler<br/>
