@@ -22,11 +22,10 @@ public:
 	void clear();
 
 	// Setters
-
-
-	// Getters
-	int getWindowWidth(){ return _width; }
 	int setWindowHeight(){ return _height; }
+	int getWindowWidth(){ return _width; }
+	
+	// Getters
 	float getFPS(){ return _fps; }
 
 private:
